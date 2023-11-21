@@ -20,6 +20,9 @@ public class RunningRace {
         }
         for(String player : callings) {
             int ownRank = rankMap.get(player);
+            if(ownRank == 0){
+                continue;
+            }
             String beforePlayer = players[ownRank-1];
             players[ownRank-1] = player;
             players[ownRank] = beforePlayer;
