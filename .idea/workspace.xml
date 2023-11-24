@@ -6,8 +6,6 @@
   <component name="ChangeListManager">
     <list default="true" id="e4695a33-9703-4ccb-954d-443c97b2a19d" name="Changes" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/CollectPersonalInformation.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/CollectPersonalInformation.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/java/CollectPersonalInformationTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/CollectPersonalInformationTest.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -84,7 +82,7 @@
     &quot;vue.rearranger.settings.migration&quot;: &quot;true&quot;
   }
 }</component>
-  <component name="RunManager" selected="JUnit.CollectPersonalInformationTest.addDateTest">
+  <component name="RunManager">
     <configuration name="CollectPersonalInformationTest" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="Programmers-Lv1.test" />
       <option name="PACKAGE_NAME" value="" />
