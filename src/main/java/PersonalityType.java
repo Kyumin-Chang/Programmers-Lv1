@@ -27,7 +27,7 @@ public class PersonalityType {
         personality.put('A', 0);
 
         for (int i = 0; i < survey.length; i++) {
-            int tmp = 0;
+            int tmp;
             if (choices[i] < 4) {
                 tmp = personality.get(survey[i].charAt(0)) + Score.findAddScore(choices[i]);
                 personality.put(survey[i].charAt(0), tmp);
