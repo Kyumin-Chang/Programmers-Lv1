@@ -98,7 +98,7 @@ public class PersonalityType {
                     return s;
                 }
             }
-            throw new IllegalArgumentException("잘못된 값입니다.");
+            throw new IllegalArgumentException("잘못된 값 입니다.");
         }
     }
 }
