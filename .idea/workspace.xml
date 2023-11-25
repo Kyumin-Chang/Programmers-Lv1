@@ -4,7 +4,11 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="e4695a33-9703-4ccb-954d-443c97b2a19d" name="Changes" comment="" />
+    <list default="true" id="e4695a33-9703-4ccb-954d-443c97b2a19d" name="Changes" comment="">
+      <change afterPath="$PROJECT_DIR$/src/test/java/PersonalityTypeTest.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/PersonalityType.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/PersonalityType.java" afterDir="false" />
+    </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -80,7 +84,7 @@
     &quot;vue.rearranger.settings.migration&quot;: &quot;true&quot;
   }
 }</component>
-  <component name="RunManager">
+  <component name="RunManager" selected="JUnit.PersonalityTypeTest.personalityTypeTest">
     <configuration name="CollectPersonalInformationTest" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="Programmers-Lv1.test" />
       <option name="PACKAGE_NAME" value="" />
@@ -111,8 +115,19 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
+    <configuration name="PersonalityTypeTest.personalityTypeTest" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="Programmers-Lv1.test" />
+      <option name="PACKAGE_NAME" value="" />
+      <option name="MAIN_CLASS_NAME" value="PersonalityTypeTest" />
+      <option name="METHOD_NAME" value="personalityTypeTest" />
+      <option name="TEST_OBJECT" value="method" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="JUnit.PersonalityTypeTest.personalityTypeTest" />
         <item itemvalue="JUnit.CollectPersonalInformationTest.addDateTest" />
         <item itemvalue="JUnit.CollectPersonalInformationTest.mainTest" />
         <item itemvalue="JUnit.CollectPersonalInformationTest" />
@@ -136,6 +151,17 @@
   </component>
   <component name="TypeScriptGeneratedFilesManager">
     <option name="version" value="3" />
+  </component>
+  <component name="XDebuggerManager">
+    <breakpoint-manager>
+      <breakpoints>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/main/java/PersonalityType.java</url>
+          <line>28</line>
+          <option name="timeStamp" value="5" />
+        </line-breakpoint>
+      </breakpoints>
+    </breakpoint-manager>
   </component>
   <component name="XSLT-Support.FileAssociations.UIState">
     <expand />
