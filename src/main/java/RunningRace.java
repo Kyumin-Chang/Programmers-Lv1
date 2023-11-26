@@ -5,7 +5,7 @@ public class RunningRace {
     private final String[] players = {"mumu", "soe", "poe", "kai", "mine"};
     private final String[] callings = {"kai", "kai", "mine", "mine"};
 
-    public String[] getPlayers(){
+    public String[] getPlayers() {
         return players;
     }
 
@@ -15,18 +15,18 @@ public class RunningRace {
 
     public String[] solution(String[] players, String[] callings) {
         Map<String, Integer> rankMap = new HashMap<>();
-        for(int i=0; i<players.length; i++) {
+        for (int i = 0; i < players.length; i++) {
             rankMap.put(players[i], i);
         }
-        for(String player : callings) {
+        for (String player : callings) {
             int ownRank = rankMap.get(player);
-            if(ownRank == 0){
+            if (ownRank == 0) {
                 continue;
             }
-            String beforePlayer = players[ownRank-1];
-            players[ownRank-1] = player;
+            String beforePlayer = players[ownRank - 1];
+            players[ownRank - 1] = player;
             players[ownRank] = beforePlayer;
-            rankMap.put(player, ownRank-1);
+            rankMap.put(player, ownRank - 1);
             rankMap.put(beforePlayer, ownRank);
         }
         return players;

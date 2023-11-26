@@ -8,7 +8,7 @@ public class RunningRaceTest {
 
     @DisplayName("달리기경주게임")
     @Test
-    void runningRaceTest(){
+    void runningRaceTest() {
         RunningRace runningRace = new RunningRace();
         String[] answer = {"mumu", "kai", "mine", "soe", "poe"};
         String[] result = runningRace.solution(runningRace.getPlayers(), runningRace.getCallings());
